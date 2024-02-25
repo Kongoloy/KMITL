@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(red, black);
+    flex-direction: column;
+    font-family: Montserrat;
+}
+
+h1 {
+    color: #FEF189;
+    text-align: center;
+    font-size: clamp(3em, 8vw, 4em);
+
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+input {
+    border-radius: 1em 0 0 1em;
+    margin: 0;
+    font-size: 1.5em;
+    padding: 1em;
+    width: 20em;
+}
+
+button {
+    text-align: center;
+    width: 1.5em;
+    margin: 0;
+    font-size: 3.5em;
+    border-radius: 0 0.5em 0.5em 0;
+    cursor: pointer;
+}
+
+.goal {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: stretch;
+    height: 4em;
+    margin-top: 1em;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    width: 15em;
+    background-color: white;
+    border-radius: 1em 0 0 1em;
+    font-size: 1.5em;
+    padding-left: 1em;
+    border: 2px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.delete {
+    text-align: center;
+    padding: 0.5em;
+    width: 1em;
+    font-size: 2.5em;
+    border-radius: 0 0.5em 0.5em 0;
+
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
